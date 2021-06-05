@@ -19,3 +19,7 @@ Route::get('/', function () {
 });
 
 Route::get('./posts',[StudenController::class, 'getAllPosts']);
+
+|Route::get('/addpost', [StudenController::class, 'addPost']);
+
+|Route::get('/addpost', [StudenController::class, 'addPostSubmit'])->name('post.addSubmit');
