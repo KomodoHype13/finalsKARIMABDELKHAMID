@@ -14,5 +14,12 @@ class StudenController extends Controller
         return view ('posts', compact('posts'));
 
     }
+    public function addPost(){
+        
+
+        return view ('add-Posts');
+
+    }
+    
     
 }
